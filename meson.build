@@ -14,7 +14,7 @@ deps = [
 
   dependency('gstreamer-video-1.0', version : gst_req),
 
-  dependency('opencv4', version : ['>= 3.0.0', '<= 4.6.0'], static: true),
+  dependency('opencv4', version : ['>= 4', '< 5'], static: true),
 ]
 
 plugins_install_dir = join_paths(get_option('libdir'), 'gstreamer-1.0')
